@@ -1,0 +1,20 @@
+device: get_down|0d
+control: down none|0d
+                             控制
+control: down set_properties 2 7 62|0d 
+                               百分比 62%
+device: result 2 7 0|0d
+control: ok|0d
+
+device: properties_changed 2 4 2 2 6 45 2 7 62 |0d
+control: ok|0d
+                             控制 ?
+control: down set_properties 2 2 2|0d 
+                               open 
+device: result 2 2 0|0d
+control: ok|0d
+
+device: properties_changed 2 4 2 2 6 64 2 7 100 |0d
+control: ok|0d
+
+device: properties_changed 2 6 67 |0d
