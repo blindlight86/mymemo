@@ -1,0 +1,8 @@
+ ->  10.1.0.152 data= {"id":1889,"method":"get_prop","params":["power","onseat_state","seat_ring","closestool_cover","inwater_temp","water_temp_lvl","seat_temp","seat_temp_lvl","flow_level","wind_temp_lvl","nozzle_level","night_led","deodorize","filter_life","mode","user_work_statue","buzzer","auto_cover"]}
+ <-  10.1.0.80 data= {"id":1889,"result":["on","off","off","on",21,3,17,0,4,3,2,"on","on",99,"idle",0,"on","off"],"exe_time":304}
+ ->  10.1.0.152 data= {"id":1890,"method":"set_cover","params":["off"]}
+ <-  10.1.0.80 data= {"id":1890,"result":["ok"],"exe_time":204}
+ ->  10.1.0.152 data= {"id":1891,"method":"set_cover","params":["on"]}
+ <-  10.1.0.80 data= {"id":1891,"result":["ok"],"exe_time":224}
+ ->  10.1.0.152 data= {"id":1892,"method":"set_seat_ring","params":["on"]}
+ <-  10.1.0.80 data= {"id":1892,"result":["ok"],"exe_time":184}
